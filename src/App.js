@@ -15,9 +15,6 @@ class App extends Component {
 				<h3 style={pStyle}>This cannot be undone! Choose wisely.</h3>
 				<div className="card-list">
 					<Card />
-					<Card />
-					<Card />
-					<Card />
 				</div>
 			</div>
 		);
