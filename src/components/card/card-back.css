@@ -1,0 +1,18 @@
+.card-back {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 250px;
+	height: 350px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #1d0606;
+}
+
+.card-back:hover {
+	border-color: rgb(255, 209, 84);
+}
+
+.card-back h3 {
+	color: white;
+}
