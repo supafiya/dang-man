@@ -7,8 +7,10 @@ function handleHover() {
 	const card = document.querySelector('.card');
 	const cardBack = document.querySelector('.card-whole-back');
 	const cardFront = document.querySelector('.card-whole-front');
+
 	card.classList.add('is-flipped');
 	cardBack.classList.remove('hide-side');
+
 	setTimeout(function() {
 		cardFront.classList.add('hide-side');
 	}, 200);
@@ -20,8 +22,8 @@ function handleNoHover() {
 	const cardFront = document.querySelector('.card-whole-front');
 
 	card.classList.remove('is-flipped');
-
 	cardFront.classList.remove('hide-side');
+
 	setTimeout(function() {
 		cardBack.classList.add('hide-side');
 	}, 200);

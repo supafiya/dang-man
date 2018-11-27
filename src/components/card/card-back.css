@@ -7,12 +7,10 @@
 	border: 2px solid black;
 	border-radius: 10px;
 	background-color: #1d0606;
-}
-
-.card-back:hover {
 	border-color: rgb(255, 209, 84);
 }
 
 .card-back h3 {
 	color: white;
+	text-align: center;
 }
